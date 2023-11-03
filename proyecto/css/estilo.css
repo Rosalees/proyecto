@@ -1,0 +1,54 @@
+/********************************/
+
+
+
+/*********************************/
+
+/*******fuentes******/
+@font-face {
+    font-family: texto;
+    src: url(../font/steelfish\ bd.otf);
+}
+
+@font-face {
+    font-family:otros;
+    src: url(../font/pricedown\ bl.otf);
+}
+/****************layout general***************/
+body{background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: texto;
+font-size: 2.5em;}
+
+#wrapper{width: 80%;
+    margin: auto;
+background-color: rgb(167, 58, 240);}
+/*************** estilo de barra de navegacion********/
+nav{font-family: otros}
+
+/********HERO SECTION**********/
+
+#hero{background-image: url(../img/bar\ 3.jpg);
+    height: 95vh; /******forzar el alto de la hero para ver la foto******/
+background-size: cover; /******* estira la foto para encajar********/
+background-position: 50%;
+font-family: otros;
+font-size: 2em;
+text-align: center;
+    padding-top: 30px}; /******* donde esta el punto de interes******/
+
+
+
+
+
+
+/****************responsividad***************/
+
+@media only screen and ( width<650px){
+    #wrapper {width: 95%;}
+}
+
+    
+
+    
+ 
